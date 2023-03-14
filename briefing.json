@@ -1,5 +1,5 @@
 {
-    "reviewers": ["required:dominik.rapp@lhsystems.com","required:yannick.rave@lhsystems.com","required:balazs.kurtan@lhsystems.com","required:christoph.califice@lhsystems.com"],
+    "reviewers": ["required:dominik.rapp@lhsystems.com","required:balazs.kurtan@lhsystems.com","required:christoph.califice@lhsystems.com"],
     "packageRules": [
 		{
 			"groupName": "automerge dockerfile and helm",

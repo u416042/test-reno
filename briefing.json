@@ -1,0 +1,15 @@
+{
+    "reviewers": ["required:dominik.rapp@lhsystems.com","required:yannick.rave@lhsystems.com","required:balazs.kurtan@lhsystems.com","required:christoph.califice@lhsystems.com"],
+    "packageRules": [
+		{
+			"groupName": "automerge dockerfile and helm",
+			"groupSlug": "automerge-docker-helm",
+			"matchPackagePatterns": ["*"],
+			"matchManagers": ["dockerfile","helmv3"],
+			"addLabels": ["automerge"],
+			"automerge": false,
+			"azureAutoApprove": true,
+			"assignAutomerge": true
+		}
+    ]
+}
